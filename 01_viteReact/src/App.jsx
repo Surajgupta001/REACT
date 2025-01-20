@@ -1,9 +1,14 @@
 import './App.css'
+import Hellow from './hellow';
 
 function App() {
 
   return (
-    <h1>Learning React | Suraj Gupta</h1>
+    <>
+    <Hellow/>
+    <h1>World</h1>
+    <p>This is our 2nd Lecture.</p>
+    </>
   );
 }
 
