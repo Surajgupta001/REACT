@@ -11,6 +11,7 @@ export const todoSlice = createSlice({
     initialState,
     reducers: {
         addTodo: (state, action) => {
+            // state.todos.push({id: nanoid(), text: action.payload}) -> 1st way of writing 
             const todo = {
                 id: nanoid(), 
                 text: action.payload
